@@ -9,6 +9,6 @@ flowchart TD;
 	A[untracked] -- git add --> B[Tracked, Staged];
 	B -- git commit --> C[Tracked];
 	C -- Change file --> D[Tracked, Modified];
-	D -- git commit --> B;
+	D -- git add --> B;
 
 ```
